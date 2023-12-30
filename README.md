@@ -1,2 +1,2 @@
 # dominikg-tum.github.io
-My Portfolio website.
+My portfolio website, built with SvelteKit and TailwindCSS.
