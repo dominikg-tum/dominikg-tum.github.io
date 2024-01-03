@@ -10,11 +10,7 @@
 		},
 		{
 			name: 'About me',
-			link: '/about'
-		},
-		{
-			name: 'Contact',
-			link: '/contact'
+			link: '#about'
 		}
 	];
 </script>
