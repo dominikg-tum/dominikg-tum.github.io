@@ -20,6 +20,11 @@ h4,
     position: relative;
 }
 
+.z-index-class {
+    position: relative; /* needed for z-index to take effect */
+    z-index: 2; /* adjust this value as needed */
+}
+
 #hero-abstract-pattern {
     border-radius: 50% 0 0 0;
     position: absolute;

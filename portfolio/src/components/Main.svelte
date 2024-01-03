@@ -10,7 +10,7 @@
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
                 B.Sc. <span class="poppins text-violet-400">Computer Science </span> 
 			</h3>
-            <p class=" text-base sm:text-lg md:text-xl lg:text-2xl">
+            <p class=" z-index-class text-base sm:text-lg md:text-xl lg:text-2xl">
                 I have obtained my degree at the <span class="poppins text-violet-400"> <a href="https://www.tum.de" target="_blank"> Techincal University of Munich (TUM)</a></span> in 2023
                 <br /> and have studied a <span class="poppins text-violet-400"> wide range </span> of super interesting topics like 
                 <br /> <span class="poppins text-violet-400"> ML & DL, SE, Robotics, MbSE,  </span> and much more ... 
