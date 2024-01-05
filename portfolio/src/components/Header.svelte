@@ -3,7 +3,8 @@
 
 	export let y;
 
-	let tabs = [
+	let tabs = []
+	/*let tabs = [
 		{
 			name: 'Projects',
 			link: '#projects'
@@ -12,7 +13,7 @@
 			name: 'About me',
 			link: '#about'
 		}
-	];
+	];*/
 </script>
 
 <header
