@@ -5,6 +5,6 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	build : {
 		outDir: '../docs',
-		//emptyOutDir: true //
+		emptyOutDir: true //
 	}
 });
