@@ -1,5 +1,14 @@
 function noop() {
 }
+const identity = (x) => x;
+function assign(tar, src) {
+  for (const k in src)
+    tar[k] = src[k];
+  return (
+    /** @type {T & S} */
+    tar
+  );
+}
 function run(fn) {
   return fn();
 }
@@ -122,15 +131,17 @@ function add_attribute(name, value, boolean) {
   return ` ${name}${assignment}`;
 }
 export {
-  setContext as a,
-  add_attribute as b,
+  add_attribute as a,
+  escape as b,
   create_ssr_component as c,
-  escape as d,
+  subscribe as d,
   each as e,
-  subscribe as f,
+  assign as f,
   getContext as g,
+  safe_not_equal as h,
+  identity as i,
   missing_component as m,
   noop as n,
-  safe_not_equal as s,
+  setContext as s,
   validate_component as v
 };

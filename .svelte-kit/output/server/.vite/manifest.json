@@ -7,6 +7,12 @@
     "isEntry": true,
     "src": ".svelte-kit/generated/server/internal.js"
   },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
   "_internal.js": {
     "file": "chunks/internal.js",
     "imports": [
@@ -28,7 +34,7 @@
     "file": "index.js",
     "imports": [
       "_internal.js",
-      "_ssr.js"
+      "_index.js"
     ],
     "isEntry": true,
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
@@ -40,7 +46,7 @@
   },
   "src/routes/+layout.svelte": {
     "css": [
-      "_app/immutable/assets/_layout.1zpHZYP8.css"
+      "_app/immutable/assets/_layout.hXGhW2rT.css"
     ],
     "file": "entries/pages/_layout.svelte.js",
     "imports": [
@@ -52,7 +58,8 @@
   "src/routes/+page.svelte": {
     "file": "entries/pages/_page.svelte.js",
     "imports": [
-      "_ssr.js"
+      "_ssr.js",
+      "_index.js"
     ],
     "isEntry": true,
     "src": "src/routes/+page.svelte"

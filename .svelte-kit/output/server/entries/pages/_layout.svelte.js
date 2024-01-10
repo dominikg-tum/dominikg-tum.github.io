@@ -1,6 +1,6 @@
-import { c as create_ssr_component, b as add_attribute, e as each, d as escape, v as validate_component } from "../../chunks/ssr.js";
+import { c as create_ssr_component, a as add_attribute, e as each, b as escape, v as validate_component } from "../../chunks/ssr.js";
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `<footer class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center" data-svelte-h="svelte-6mxrkm"><p class="px-4 py-2 bg-white text-slate-950 font-medium">Connect with me ↓</p> <div class="flex flex-col gap-4 items-center justify-center"><p><b class="pr-2">Email</b> dgarstenauer0@gmail.com</p> <p><b class="pr-2">LinkedIn</b> <a class="text-violet-400" target="_blank" href="https://www.linkedin.com/in/dominik-garstenauer/">dominikg<sup><span class="text-xs scale-75 pl-0.5"><i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i></span></sup></a></p> <p><b class="pr-2">GitHub</b> <a class="text-violet-400" target="_blank" href="https://github.com/dominikg-tum/">dominikg<sup><span class="text-xs scale-75 pl-0.5"><i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i></span></sup></a></p></div></footer>`;
 });
 const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { y } = $$props;
