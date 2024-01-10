@@ -8,16 +8,20 @@
 			name: "Develop Your Own Car - MbSE at Fortiss",
 			icon: "fa-solid fa-car",
 			images: ["assets/Logo_fortiss.png", "assets/Car3.png"],
+			href: "https://www.fortiss.org/forschung/fortiss-labs/detail/mobility-lab",
 		},
 		{
 			name: "hackaTUM 2023 - Check24 Challenge",
 			icon: "fa-solid fa-magnifying-glass-location",
 			images: ["assets/Craft24.png"],
+			href: "https://hack.tum.de/past-events/events-2023/2023-projects/",
+
 		},
 		{
 			name: "Bachelor's Thesis",
 			icon: "fa-solid fa-robot",
 			images: [],
+			href: "https://www.ce.cit.tum.de/air/research/modular-robots/",
 		},
 	];
 
@@ -101,10 +105,9 @@
 		<div class="border-box flex items-center space-x-4 max-w-4xl mx-auto">
 			<span class="wave"><i class="fa-solid fa-circle-info sm:text-6xl md:text-6xl lg:text-7xl"></i></span>
 			<h3 class="font-semibold text-1xl sm:text-2xl md:text-3xl">
-				I am currently looking for an <strong class="text-violet-400"> internship </strong>
-				to gain further <span class="poppins text-violet-400"> work experience </span> before persuing a
-				<span class="poppins text-violet-400"> M.Sc.</span> in CS. 
-				<br> If you are interested in my profile, please feel free to <span class="poppins text-violet-400"> reach out </span> to me.
+				I am currently looking for an <strong class="text-violet-400"> internship </strong> in Munich or Regensburg
+				to gain further <span class="poppins text-violet-400"> work experience </span> before persuing a <span class="poppins text-violet-400"> M.Sc.</span> in CS. 
+				If you are interested in my profile, please feel free to <span class="poppins text-violet-400"> reach out </span> to me.
 			</h3>
 		</div>
 	</section>
@@ -130,21 +133,23 @@
 			</h3>
 		</div>
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-			<Step step={steps[0]}>
+			<Step step={steps[0]} additionalPicture="assets/car3.png">
+				<p>
+					Working in a team of four, we used <strong class="text-violet-400"> Model-based systems engineering (MbSE)</strong> 
+					to develop software for a small, <strong class="text-violet-400"> self-driving car model </strong>. We implemented steering, braking, gears (and ofc a sport mode),
+					but mainly <strong class="text-violet-400"> advanced driver-assistance systems</strong> like adaptive cruise control, emergency breaking, and <strong class="text-violet-400">lane-keeping</strong>.
+					I learned a lot about <strong class="text-violet-400"> agile software development</strong> by completing a full development process of modeling, simulating and deploying/testing on hardware from a set of <strong class="text-violet-400"> requirements</strong>.
+					<br> <strong class="text-violet-400">Tools used:</strong> AutoFOCUS3, OpenModelica, Matlab, Gazebo (simulation), Python (Matplotlib, Numpy), Git.
+				</p>
+			</Step>
+			<Step step={steps[1]} additionalPicture="assets/car3.png">
 				<p>
 					Bla Bla Bla bla bla bla <strong class="text-violet-400"
 						>Bla bla Bla!</strong
 					> Cla cla cla cla.
 				</p>
 			</Step>
-			<Step step={steps[1]}>
-				<p>
-					Bla Bla Bla bla bla bla <strong class="text-violet-400"
-						>Bla bla Bla!</strong
-					> Cla cla cla cla.
-				</p>
-			</Step>
-			<Step step={steps[2]}>
+			<Step step={steps[2]} additionalPicture="assets/car3.png">
 				<p>
 					Bla Bla Bla bla bla bla <strong class="text-violet-400"
 						>Bla bla Bla!</strong
