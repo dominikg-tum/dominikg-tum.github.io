@@ -29,17 +29,18 @@
 		{
 			name: "My studies",
 			description:
-				"I have obtained my degree at the Technical University of Munich (TUM) in 2023. During my studies I have learned about a wide range of super interesting topics, ranging from the theoretical and mathematical basics of computer science, to (agile) SE, Robotics, ML & DL, MbSE, Mechanical Engineering, and much more.",
+				"I have obtained my computer science degree at the Technical University of Munich (TUM) in 2023, with a minor in mechanical engineering. Studying at TUM, I have gained an in depth knowledge of the mathematical and theoretical basics of computer science, as well as practical (& theoretical) experience in a wide range of other super interesting topics such as software engineering, robotics, ML & DL, MbSE, mMechanical engineering, and much more.",
 		},
 		{
-			name: "Commonucation / Other interests",
+			name: "Skills",
+			description: "I am proficient in Python, Java, C++, Shell and with Git. Additionally, trough my studies and projects I have experience with SQL(PostgreSQL), x86 Assembly, Haskell, C, Docker, Matlab, several Python and Java frameworks (Maven, Spring, numpy, unittest, pandas, matplotlib, scikit-learn, tensorflow, pytorch, timor) OpenModelica, AutoFOCUS3, and Solidworks3D-CAD. But most importantly, I am a fast learner and I am always eager to learn new languages and frameworks.",
+		},
+		{
+			name: "Other interests",
 			description:
-				"I am currently living in Munich from MunichBla bla blas bla meh",
+				"I am currently living in Munich, and I have recently started to dive into the world of ML and DL via university courses. I am also a big fan of sports, especially soccer, volleyball and skateboarding.",
 		},
-		{
-			name: "Tech Stack / Skills",
-			description: "Bla bla blas bla!",
-		},
+	
 	];
 
 	let currentInfo = {
@@ -76,7 +77,7 @@
 				<span class="poppins text-violet-400">
 					<a href="https://www.tum.de" target="_blank">
 						Technical University of Munich (TUM)</a
-					>
+					>.
 				</span>
 			</p>
 			<a
@@ -162,15 +163,6 @@
 				</p>
 			</Step>
 		</div>
-    <!-- The images 
-    <div
-        class="flex flex-col items-center justify-center gap-2 sm:gap-4 lg:gap-6"
-    >
-        {#each step.images as image}
-            <img src={image} class="w-24 sm:w-32 lg:w-40" />
-        {/each}
-    </div>
-    -->
 	</section>
 
 	<!-- About Me + current info -->
