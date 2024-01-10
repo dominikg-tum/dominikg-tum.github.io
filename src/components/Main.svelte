@@ -161,7 +161,7 @@
 					including strong <strong class="text-violet-400">unittests</strong>, a <strong class="text-violet-400">structured and self-motivated</strong> work approach, and <strong class="text-violet-400">robotics</strong>.
 					<br> <strong class="text-violet-400">Tools used:</strong> Python (Timor, Numpy, unittest), Solidworks 3D-CAD, Git
 				</p>
-			</Step>
+			</Step> 
 		</div>
 	</section>
 
