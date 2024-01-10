@@ -3,8 +3,7 @@
 
 	export let y;
 
-	let tabs = []
-	/*let tabs = [
+	let tabs = [
 		{
 			name: 'Projects',
 			link: '#projects'
@@ -13,7 +12,7 @@
 			name: 'About me',
 			link: '#about'
 		}
-	];*/
+	];
 </script>
 
 <header
@@ -23,7 +22,7 @@
 	<h1 class="font-medium">
 		<b class="font-bold poppins">Dominik</b> Garstenauer
 	</h1>
-	<div class="sm:flex items-center gap-4 hidden">
+	<div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
 		{#each tabs as tab, index}
 			<a href={tab.link} class="duration-200 hover:text-violet-400">
 				<p>{tab.name}</p>

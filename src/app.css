@@ -22,13 +22,11 @@ h4,
 
 .z-index-class {
     position: relative;
-    /* needed for z-index to take effect */
     z-index: 2;
-    /* adjust this value as needed */
 }
 
 #hero-abstract-pattern {
-    border-radius: 50% 0 0 0;
+    border-radius: 100% 0 0 0;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -36,9 +34,9 @@ h4,
     width: 33.33vw;
     height: 100vh;
     overflow: hidden;
-    z-index: 1;
+    z-index: -2;
     filter: blur(0.35px);
-    opacity: 0.8;
+    opacity: 0.1;
 }
 
 #hero-abstract-pattern::after {
@@ -52,7 +50,7 @@ h4,
     mix-blend-mode: multiply;
 }
 
-/* Code dapted from https://codepen.io/jakejarvis/pen/pBZWZw*/ 
+/* Code dapted from https://codepen.io/jakejarvis/pen/pBZWZw */ 
 .wave {
     animation-name: wave-animation;
     animation-duration: 2.5s;
@@ -95,14 +93,3 @@ h4,
     }
 }
 
-
-
-
-/* For demonstration purposes only: */
-body {
-    font-size: 3.5em
-}
-
-h1 {
-    font-size: 0.5em
-}
