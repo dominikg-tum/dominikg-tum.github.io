@@ -14,7 +14,7 @@
 			name: "hackaTUM 2023 - Check24 Challenge",
 			icon: "fa-solid fa-magnifying-glass-location",
 			images: ["assets/Craft24.png"],
-			href: "https://hack.tum.de/past-events/events-2023/2023-projects/",
+			href: "https://github.com/FjodorGit/hackatum-2023",
 
 		},
 		{
@@ -142,18 +142,23 @@
 					<br> <strong class="text-violet-400">Tools used:</strong> AutoFOCUS3, OpenModelica, Matlab, Gazebo (simulation), Python (Matplotlib, Numpy), Git.
 				</p>
 			</Step>
-			<Step step={steps[1]} additionalPicture="assets/car3.png">
+			<Step step={steps[1]} additionalPicture="assets/craft24-website.png">
 				<p>
-					Bla Bla Bla bla bla bla <strong class="text-violet-400"
-						>Bla bla Bla!</strong
-					> Cla cla cla cla.
+					During the <strong class="text-violet-400"><a href="https://hack.tum.de/" target="_blank">hackaTUM 2023</a></strong> I developed an MVP for CHECK24's craftsmen
+					 comparison <strong class="text-violet-400">software engineering challenge</strong> in a team of four. We implemented a frontend and backend for a geo-distance, 
+					 weighted ranking algorithm that ranks craftsmen based on their distance to the customer, their rating, and their price. Additionally, we <strong class="text-violet-400">optimized our MVP for speed </strong> 
+					 with pre-calculations on the database. Working with new technologies and a very limited amount of time was a <strong class="text-violet-400">fun and challenging experience</strong> which I would love to repeat.
+					 <br> <strong class="text-violet-400">Tools used:</strong> SvelteKit, TailwindCSS, Rust, Diesel, PostgreSQL, Docker, Git
 				</p>
 			</Step>
-			<Step step={steps[2]} additionalPicture="assets/car3.png">
+			<Step step={steps[2]} additionalPicture="assets/robot.png">
 				<p>
-					Bla Bla Bla bla bla bla <strong class="text-violet-400"
-						>Bla bla Bla!</strong
-					> Cla cla cla cla.
+					For my bachelor's thesis, I designed, implemented, and executed a <strong class="text-violet-400">simulation-based benchmark suite</strong> for modular reconfigurable robots
+					based on <strong class="text-violet-400"><a href="https://www.nist.gov/el/intelligent-systems-division-73500/robotic-grasping-and-manipulation-assembly/assembly" target="_blank"> NIST's specifications</a></strong>. 
+					Additionally, I implemented robotic pick-and-place features for <strong class="text-violet-400"><a href="https://arxiv.org/abs/2209.06758" target="_blank"> Timor Python: A Toolbox for Industrial Modular Robotics</a></strong>.
+					Contributing to Timor and <strong class="text-violet-400"><a href="https://cobra.cps.cit.tum.de/" target="_blank">CoBRA</a></strong>, I learned a lot about writing high quality <strong class="text-violet-400"> python code</strong> 
+					including strong <strong class="text-violet-400">unittests</strong>, a <strong class="text-violet-400">structured and self-motivated</strong> work approach, and <strong class="text-violet-400">robotics</strong>.
+					<br> <strong class="text-violet-400">Tools used:</strong> Python (Timor, Numpy, unittest), Solidworks 3D-CAD, Git
 				</p>
 			</Step>
 		</div>
