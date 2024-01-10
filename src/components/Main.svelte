@@ -1,5 +1,5 @@
 <script>
-// @ts-nocheck
+	// @ts-nocheck
 
 	import Step from "./Step.svelte";
 
@@ -15,79 +15,71 @@
 			images: ["assets/Craft24.png"],
 		},
 		{
-			name: "BA Thesis",
-			icon: "fa-solid fa-bird",
-			images: [],
-		},
-		{
-			name: "Placeholder",
-			icon: "fa-solid fa-dog",
+			name: "Bachelor's Thesis",
+			icon: "fa-solid fa-robot",
 			images: [],
 		},
 	];
 
 	let infos = [
 		{
-			name: "bla1",
-			description: "Bla bla blas bla ",
+			name: "My studies",
+			description:
+				"I have obtained my degree at the Technical University of Munich (TUM) in 2023. During my studies I have learned about a wide range of super interesting topics, ranging from the theoretical and mathematical basics of computer science, to (agile) SE, Robotics, ML & DL, MbSE, Mechanical Engineering, and much more.",
 		},
 		{
-			name: "uga",
-			description: "Bla bla blas bla meh",
+			name: "Commonucation / Other interests",
+			description:
+				"I am currently living in Munich from MunichBla bla blas bla meh",
 		},
 		{
-			name: "buga",
+			name: "Tech Stack / Skills",
 			description: "Bla bla blas bla!",
 		},
-	]
+	];
+
+	let currentInfo = {
+		name: "Internship",
+		icon: "fa-solid fa-info",
+	};
+
 </script>
 
 <main class="flex flex-col flex-1 p-4">
-	<!--INtro + INfo section-->
+	<!--INtro section-->
 	<section
 		id="introPage"
-		class="grid grid-cols-1 lg:grid-cols2 gap-5 py-8 sm:py-14"
+		class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
 	>
 		<div
-			class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
+			class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10 lg:pl-20"
 		>
-			<h2
-				class="font-semibold text-5xl sm:text-5xl md:text-6xl lg:text-7xl"
-			>
-				Hi <span class="wave">👋</span>
-			</h2>
 			<h3
 				class="font-semibold text-4xl sm:text-4xl md:text-5xl lg:text-6xl"
 			>
-				I'm <span class="poppins text-violet-400">Dominik</span>
+				Hi <span class="wave">👋</span> I'm
+				<span class="poppins text-violet-400">Dominik</span>
 				Garstenauer, B.Sc.
 				<span class="poppins text-violet-400">Computer Science </span>
 			</h3>
 			<p
 				class="z-index-class text-base sm:text-xl md:text-2xl lg:text-3xl"
 			>
-				I have obtained my degree at the <span
-					class="poppins text-violet-400"
-				>
+				I am a <span class="poppins text-violet-400">
+					passionate
+				</span>computer science student with a Bachelor of Science from
+				the
+				<span class="poppins text-violet-400">
 					<a href="https://www.tum.de" target="_blank">
 						Technical University of Munich (TUM)</a
-					></span
-				>
-				in 2023 and have studied a
-				<span class="poppins text-violet-400"> wide range </span>
-				of super interesting topics ranging from the
-				<span class="poppins text-violet-400">
-					theoretical and mathematical basics
+					>
 				</span>
-				of computer science to
-				<span class="poppins text-violet-400">
-					SE, Robotics, ML & DL, MbSE, Mechanical Engineering,
-				</span> and much more ...
 			</p>
 			<a
 				href="https://www.linkedin.com/in/dominik-garstenauer/"
 				target="_blank"
-				class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
+				class="blueShadow mx-auto lg:mr-auto lg:ml-0 lg:ml-0 text-base sm:text-lg md:text-xl
+				poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
 			>
 				<div
 					class="absolute top-0 right-full w-full h-full bg-gradient-to-r from-violet-400 to-violet-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"
@@ -99,21 +91,39 @@
 			<img
 				src={"assets/profile.png"}
 				alt="profile pic"
-				class="object-cover z-[2] max-h-[70wh]"
+				class="object-cover z-[2] max-h-[85wh]"
 			/>
 		</div>
 	</section>
 
+	<!-- Current Info section-->
+	<section id="currentInfo" class="py-15 lg:py-15 flex flex-col gap-14">
+		<div class="border-box flex items-center space-x-4 max-w-4xl mx-auto">
+			<span class="wave"><i class="fa-solid fa-circle-info sm:text-6xl md:text-6xl lg:text-7xl"></i></span>
+			<h3 class="font-semibold text-1xl sm:text-2xl md:text-3xl">
+				I am currently looking for an <strong class="text-violet-400"> internship </strong>
+				to gain further <span class="poppins text-violet-400"> work experience </span> before persuing a
+				<span class="poppins text-violet-400"> M.Sc.</span> in CS. 
+				<br> If you are interested in my profile, please feel free to <span class="poppins text-violet-400"> reach out </span> to me.
+			</h3>
+		</div>
+	</section>
+	<!-- 
+			<p class="mx-auto poppins font-semibold text-5xl sm:text-3xl md:text-6xl">
+				<span class="wave">🌱</span>
+			</p> 
+			-->
+
 	<!-- The project section -->
 	<section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
 		<div class="flex flex-col gap-2 text-center z-[2]">
-			<h6 class="text-lg sm:text-xl md:text-2xl">
-				Here are some of my <span class="poppins text-violet-400"
+			<h6 class="text-large sm:text-xl md:text-2xl">
+				Here are some <span class="poppins text-violet-400"
 					>projects</span
 				> I have worked on.
 			</h6>
 			<h3
-				class="font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
+				class="font-semibold text-2xl sm:text-4xl md:text-4xl lg:text-5xl"
 			>
 				<span class="poppins text-violet-400"> Curious </span> to see my
 				work?
@@ -142,13 +152,22 @@
 				</p>
 			</Step>
 		</div>
+    <!-- The images 
+    <div
+        class="flex flex-col items-center justify-center gap-2 sm:gap-4 lg:gap-6"
+    >
+        {#each step.images as image}
+            <img src={image} class="w-24 sm:w-32 lg:w-40" />
+        {/each}
+    </div>
+    -->
 	</section>
 
 	<!-- About Me + current info -->
 	<section
 		id="about"
 		class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
-	>	
+	>
 		<div
 			class="flex flex-col gap-2 text-center relative
 			before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700
@@ -156,13 +175,15 @@
 		>
 			<h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-			A bit <span class="poppins text-violet-400">about</span> me.
+				A bit <span class="poppins text-violet-400">about</span> me.
 			</h3>
 		</div>
 		<div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
 			{#each infos as info, index}
 				<div class="flex gap-6 sm:gap-8">
-					<p class="poppins font-semibold text-4xl sm:text-5xl md:text-6xl text-slate-500 ">
+					<p
+						class="poppins font-semibold text-4xl sm:text-5xl md:text-6xl text-slate-500"
+					>
 						0{index + 1}
 					</p>
 					<div class="flex flex-col gap-6 sm:gap-8">
@@ -176,59 +197,6 @@
 				</div>
 			{/each}
 		</div>
-
-		<p class="mx-auto poppins font-semibold text-5xl sm:text-5xl md:text-6xl">
-			<span class="wave">🌱</span>
-		</p>
-		<i class="fa-solid fa-circle-info"></i>
-		<div
-			class="relative shadow-2xl place-items-center text-center py-5 lg:py-8"
-		>
-			<h3
-				class="font-normal text-1xl sm:text-xl md:text-2xl lg:text-3xl mt-12 text-left"
-			>
-				I am currently looking for an <span class="poppins text-violet-400">internship</span> to gain further work experience before persuing a
-				<span class="poppins text-violet-400"> Master of Science </span>
-				in CS. <br />
-			</h3>
-			<!--TODO add AGE + from Munich + other personal INfo /but not too much) -->
-		</div>
-
-
 	</section>
 
-	<!-- About Me Profile Picture + current info 
-	<section id="about" class="py-1 lg:py-2 flex flex-col gap-14">
-		<div class="relative shadow-2xl grid grid-cols-2 place-items-center">
-			<img
-				src={"assets/profile.png"}
-				alt="profile pic"
-				class="object-cover z-[2] max-h-[70wh]"
-			/>
-			<div
-				class="relative shadow-2xl place-items-center text-center py-5 lg:py-8"
-			>
-				<h2
-					class="font-semibold text-1xl sm:text-2xl md:text-3xl lg:text-4xl"
-				>
-					<span class="wave">🌱 </span> About me
-				</h2>
-				<h3
-					class="font-normal text-1xl sm:text-xl md:text-2xl lg:text-3xl mt-12 text-left"
-				>
-					I am currently looking for an <span
-						class="poppins text-violet-400"
-					>
-						internship
-					</span>
-					to gain further work experience before persuing a
-					<span class="poppins text-violet-400">
-						Master of Science
-					</span>
-					in CS. <br />
-				</h3>
-				TODO add AGE + from Munich + other personal INfo /but not too much) 
-			</div>
-		</div>
-	</section> -->
 </main>
