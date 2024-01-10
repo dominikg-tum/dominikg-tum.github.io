@@ -1,5 +1,8 @@
 <script>
-    export let step;
+    /**
+     * @type {{ href: any; icon: any; name: any; }}
+     */
+     export let step;
 </script>
 
 <a
@@ -18,15 +21,15 @@
     <slot />
     <div class="flex-1 flex justify-between gap-4 items-center">
         <div class="ml-auto cursor-pointer hover-text-slate-950 duration-200
-        relative after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full after:bg-white after:duration-200
-        hover:after:translate-x-full after:z-[1] overflow-hidden">
-            <p class="realtive z-4">Go to &rarr;</p>
+        relative after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full after:bg-white
+        after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
+            <p class="relative z-4">Go to &rarr;</p>
         </div>
     </div>
       
     
 
-
+    <!-- The images 
     <div
         class="flex flex-col items-center justify-center gap-2 sm:gap-4 lg:gap-6"
     >
@@ -34,4 +37,5 @@
             <img src={image} class="w-24 sm:w-32 lg:w-40" />
         {/each}
     </div>
+    -->
 </a>
