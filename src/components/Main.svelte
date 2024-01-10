@@ -29,7 +29,7 @@
 		{
 			name: "My studies",
 			description:
-				"I have obtained my computer science degree at the Technical University of Munich (TUM) in 2023, with a minor in mechanical engineering. Studying at TUM, I have gained an in depth knowledge of the mathematical and theoretical basics of computer science, as well as practical (& theoretical) experience in a wide range of other super interesting topics such as software engineering, robotics, ML & DL, MbSE, mMechanical engineering, and much more.",
+				"I have obtained my computer science degree at the Technical University of Munich (TUM) in 2023, with a minor in mechanical engineering. Studying at TUM, I have gained an in-depth knowledge of the mathematical and theoretical basics of computer science, as well as practical (& theoretical) experience in a wide range of other super interesting topics such as software engineering, robotics, ML & DL, MbSE, mMechanical engineering, and much more.",
 		},
 		{
 			name: "Skills",
@@ -140,7 +140,7 @@
 					to develop software for a small, <strong class="text-violet-400"> self-driving car model </strong>. We implemented steering, braking, gears (and ofc a sport mode),
 					but mainly <strong class="text-violet-400"> advanced driver-assistance systems</strong> like adaptive cruise control, emergency breaking, and <strong class="text-violet-400">lane-keeping</strong>.
 					I learned a lot about <strong class="text-violet-400"> agile software development</strong> by completing a full development process of modeling, simulating and deploying/testing on hardware from a set of <strong class="text-violet-400"> requirements</strong>.
-					<br> <strong class="text-violet-400">Tools used:</strong> AutoFOCUS3, OpenModelica, Matlab, Gazebo (simulation), Python (Matplotlib, Numpy), Git.
+					<br> <strong class="text-violet-400">Tools used:</strong> AutoFOCUS3, OpenModelica, Matlab, Gazebo (simulation), Python (Matplotlib, Numpy), Git
 				</p>
 			</Step>
 			<Step step={steps[1]} additionalPicture="assets/craft24-website.png">
