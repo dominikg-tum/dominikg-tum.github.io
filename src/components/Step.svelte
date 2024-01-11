@@ -39,7 +39,7 @@
     <h3 class="font-medium text-xl sm:text-2xl md:text-3xl lg:text-4xl">
         {step.name}
     </h3>
-    <div class="text-2xl">
+    <div class="sm:text-lg md:text-2xl lg:text-2xl">
         <slot/>
     </div>
     <div class="flex-1 flex justify-between gap-4 items-center">

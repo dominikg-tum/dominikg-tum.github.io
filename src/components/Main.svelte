@@ -192,7 +192,7 @@
 						<h3 class="text-2xl sm:text-3xl md:text-5xl">
 							{info.name}
 						</h3>
-						<p>
+						<p class="text-xl sm:text-base md:text-xl lg:text-2xl">
 							{info.description}
 						</p>
 					</div>
