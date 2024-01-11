@@ -29,16 +29,16 @@
 		{
 			name: "My studies",
 			description:
-				"I have obtained my computer science degree at the Technical University of Munich (TUM) in 2023, with a minor in mechanical engineering. Studying at TUM, I have gained an in-depth knowledge of the mathematical and theoretical basics of computer science, as well as practical (& theoretical) experience in a wide range of other super interesting topics such as software engineering, robotics, ML & DL, MbSE, mMechanical engineering, and much more.",
+				"I obtained my computer science degree at the Technical University of Munich (TUM) in 2023, with a minor in mechanical engineering. Studying at TUM, I have gained an in-depth knowledge of the mathematical and theoretical basics of computer science, as well as practical (& theoretical) experience in a wide range of other super interesting topics such as software engineering, robotics, ML & DL, MbSE, mechanical engineering, and much more.",
 		},
 		{
 			name: "Skills",
-			description: "I am proficient in Python, Java, C++, Shell and with Git. Additionally, trough my studies and projects I have experience with SQL(PostgreSQL), x86 Assembly, Haskell, C, Docker, Matlab, several Python and Java frameworks (Maven, Spring, numpy, unittest, pandas, matplotlib, scikit-learn, tensorflow, pytorch, timor) OpenModelica, AutoFOCUS3, and Solidworks3D-CAD. But most importantly, I am a fast learner and I am always eager to learn new languages and frameworks.",
+			description: "I am proficient in Python, Java, C++, Shell, and Git. Additionally, through my studies and projects, I have experience with SQL(PostgreSQL), x86 Assembly, Haskell, C, Docker, Matlab, several Python and Java frameworks (Maven, Spring, numpy, unittest, pandas, matplotlib, scikit-learn, tensorflow, pytorch, timor) OpenModelica, AutoFOCUS3, and Solidworks3D-CAD. But most importantly, I am a fast learner and I am always eager to learn new languages and frameworks.",
 		},
 		{
 			name: "Other interests",
 			description:
-				"I am currently living in Munich, and I have recently started to dive into the world of ML and DL via university courses. I am also a big fan of sports, especially soccer, volleyball and skateboarding.",
+				"I am currently living in Munich, and I have recently started to dive into the world of ML and DL via university courses. I am also a big fan of sports, especially soccer, volleyball, and skateboarding.",
 		},
 	
 	];
@@ -139,7 +139,7 @@
 					Working in a team of four, we used <strong class="text-violet-400"> Model-based systems engineering (MbSE)</strong> 
 					to develop software for a small, <strong class="text-violet-400"> self-driving car model </strong>. We implemented steering, braking, gears (and ofc a sport mode),
 					but mainly <strong class="text-violet-400"> advanced driver-assistance systems</strong> like adaptive cruise control, emergency breaking, and <strong class="text-violet-400">lane-keeping</strong>.
-					I learned a lot about <strong class="text-violet-400"> agile software development</strong> by completing a full development process of modeling, simulating and deploying/testing on hardware from a set of <strong class="text-violet-400"> requirements</strong>.
+					I learned a lot about <strong class="text-violet-400"> agile software development</strong> by completing a full development process of modeling, simulating, and deploying/testing on hardware from a set of <strong class="text-violet-400"> requirements</strong>.
 					<br> <strong class="text-violet-400">Tools used:</strong> AutoFOCUS3, OpenModelica, Matlab, Gazebo (simulation), Python (Matplotlib, Numpy), Git
 				</p>
 			</Step>
@@ -147,7 +147,7 @@
 				<p>
 					During the <strong class="text-violet-400"><a href="https://hack.tum.de/" target="_blank">hackaTUM 2023</a></strong> I developed an MVP for CHECK24's craftsmen
 					 comparison <strong class="text-violet-400">software engineering challenge</strong> in a team of four. We implemented a frontend and backend for a geo-distance, 
-					 weighted ranking algorithm that ranks craftsmen based on their distance to the customer, their rating, and their price. Additionally, we <strong class="text-violet-400">optimized our MVP for speed </strong> 
+					 weighted ranking algorithm that ranks craftsmen based on their distance from the customer, their rating, and their price. Additionally, we <strong class="text-violet-400">optimized our MVP for speed </strong> 
 					 with pre-calculations on the database. Working with new technologies and a very limited amount of time was a <strong class="text-violet-400">fun and challenging experience</strong> which I would love to repeat.
 					 <br> <strong class="text-violet-400">Tools used:</strong> SvelteKit, TailwindCSS, Rust, Diesel, PostgreSQL, Docker, Git
 				</p>
