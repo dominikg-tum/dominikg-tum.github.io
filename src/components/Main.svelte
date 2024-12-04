@@ -44,7 +44,7 @@
 	];
 
 	let currentInfo = {
-		name: "Internship",
+		name: "Studies",
 		icon: "fa-solid fa-info",
 	};
 
@@ -106,8 +106,8 @@
 		<div class="border-box flex items-center space-x-4 max-w-4xl mx-auto">
 			<span class="wave"><i class="fa-solid fa-circle-info sm:text-6xl md:text-6xl lg:text-7xl"></i></span>
 			<h3 class="font-semibold text-1xl sm:text-2xl md:text-3xl">
-				I am currently working at  <strong class="text-violet-400"> Bosch </strong> as an intern for six months before
-				persuing a <span class="poppins text-violet-400"> M.Sc.</span> in CS. At Bosch, I'm using <span class="poppins text-violet-400"> ML </span>
+				I am currently working at <strong class="text-violet-400"> Bosch Engineering </strong> as a working student while persuing 
+				a <span class="poppins text-violet-400"> M.Sc.</span> in CS. At BEG, I'm applying <span class="poppins text-violet-400"> ML </span>
 				for vehicle steering applications. If you are interested in my profile, feel free to <span class="poppins text-violet-400"> reach out </span> to me.
 			</h3>
 		</div>
