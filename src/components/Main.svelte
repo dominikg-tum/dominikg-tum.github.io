@@ -20,7 +20,7 @@
 		{
 			name: "Bachelor's Thesis",
 			icon: "fa-solid fa-robot",
-			images: [],
+			images: ["robot.png"],
 			href: "https://www.ce.cit.tum.de/air/research/modular-robots/",
 		},
 	];
